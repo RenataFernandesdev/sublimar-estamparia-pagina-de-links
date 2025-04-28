@@ -17,7 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     background: linear-gradient(50deg, #cd317d 0%, #114b9b 50%, #f7ce31 100%);
-    font-family: arial, sans-serif;
+    font-family: "poppins", sans-serif;
     justify-content: space-between;
     align-items: center;
     height: 100vh;
@@ -66,10 +66,10 @@ main {
     min-height: 64px;
     font-weight: bold;
     border-radius: 32px;
-    align-self: center;
+    align-content: center;
     color: var(--azul);
     background-color: #FFF;
-    transition: all 0.4s;
+    transition: all 0.3s ease;
     border: 1px solid transparent;
 }
 
@@ -92,7 +92,7 @@ main {
     padding: 8px;
     color: #fff;
     
-    transition: all 0.4s;
+    transition: all 0.3s ease;
 }
 
 .redes-sociais-link:hover {
